@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.List;
 
-@Service
+@Service("organic")
 @RequiredArgsConstructor
 public class ProjectOrganicService implements ProjectProvider {
 
